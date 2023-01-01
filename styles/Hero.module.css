@@ -1,0 +1,87 @@
+.hero {
+  height: calc(100vh - 100px);
+  margin-top: 80px;
+  width: 70vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero_container {
+  position: relative;
+}
+
+.name {
+  padding: 2em;
+  font-family: "Press Start 2P", Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 4em;
+  text-transform: uppercase;
+  display: inline-flex;
+  flex-direction: column;
+  text-align: right;
+  position: relative;
+  top: 1em;
+  background: rgb(167, 203, 67);
+  background: linear-gradient(
+    135deg,
+    rgba(167, 203, 67, 1) 39%,
+    rgba(80, 51, 166, 1) 64%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* animation-name: name-animation;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out; */
+}
+
+.subheading {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    position: absolute;
+    top: 12.54em;
+    left: 5.16em;
+    display: flex;
+    flex-direction: column;
+    transform: rotate(-10deg);
+    background-color: #c1f719;
+    padding: 0.5em;
+}
+
+
+
+
+.herosvg {
+    object-fit: contain;
+    height:450px;
+    width: 300px;
+    position: absolute;
+    display: flex;
+    top:12em;
+    right: 10em;
+    background: 
+    rgba(80, 51, 166, 1) ;
+    border-radius: 20px;
+    border: 3em solid rgba(80, 51, 166, 1);
+    padding: 0.5em 0.5em 0.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,84 @@
+.projects {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: #213038;
+}
+
+.project_heading {
+    margin-top: 100px;
+    margin-left: 2em;
+    color: #000;
+    background-color: #c1f719;
+    display: inline-flex;
+    padding: 0.5em;
+}
+
+.rusty {
+    font-size: 3em;
+    font-style: italic;
+    font-weight: 100;
+    padding: 0.5em;
+    
+}
+
+.rusty_para {
+    color: #fff;
+    margin-left: 1.5em;
+    padding: 1em;
+    background-color: #091922;
+    display: inline-block;
+    border-radius: 7px;
+}
+
+.experience {
+    font-size: 3em;
+    font-style: italic;
+    font-weight: 100;
+    padding: 0.5em;
+}
+
+.exp_card_group {
+    display: flex; 
+}
+
+.exp_card {
+    display: flex;
+    height: 15em;
+    width: 15em;
+    margin: 0.5em;
+    padding: 0.5em;
+    background: #091922;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.exp_card:hover {
+    border: 0.5px solid #c1f719;
+    color:  #c1f719;
+}
+
+.exp_buttons {
+    display: inline-flex;
+    margin: 3em;
+}
+
+
+.exp_button {
+    height: 4em;
+    width: 7em;
+    background-color: #091922;
+    margin: 2em;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.exp_button:hover {
+    border: 0.5px solid #c1f719;
+    color:  #c1f719;
+}

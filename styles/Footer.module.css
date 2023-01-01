@@ -1,0 +1,21 @@
+.footer {
+    border-top: 0.1px solid #c1f719;
+    height: 100%;
+    position: relative;
+    background-color: rgb(23, 23, 23);
+}
+
+.footer_links {
+    margin-top: 2em;
+}
+.footer_links ul li {
+    color: #fff;
+    margin: 1em 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_copyright {
+    color: #c1f719;
+    padding: 2em;
+}

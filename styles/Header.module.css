@@ -1,0 +1,41 @@
+.header {
+    position: fixed; 
+    top: 0;
+    border-bottom: 1px solid hsla(0,0%,100%,.2);
+    z-index: 1;
+    background-color: #091922;
+    
+  }
+  .headerflex {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 78.4px;
+  }
+  .logo {
+    display: flex;
+    padding: 1.7em 2em 1.7em 2em;
+    border-right: 1.5px solid #3a474e;
+    background-color: #16252d;
+    
+  }
+  .logo h1 {
+    color: #c1f719;
+    letter-spacing: .2px;
+  }
+  .list {
+    display: flex;
+  }
+  .header div ul {
+    display: flex;
+    color: #fff
+  }
+  
+  .header div ul li {
+    display: flex;
+    padding: 1.7em;
+    border-left: 1.5px solid #3a474e;
+  }
+  .header div ul li:hover {
+    color: #c1f719;
+  }
