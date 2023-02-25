@@ -1,13 +1,8 @@
 import React from "react";
 import styles from "../styles/Projects.module.css";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-import {
-  solid,
-  regular,
-  brands,
-  icon,
-} from "@fortawesome/fontawesome-svg-core/import.macro";
+
+
 type Props = {};
 
 export default function ({}: Props) {
