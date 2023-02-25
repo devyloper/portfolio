@@ -1,0 +1,12 @@
+.about {
+    height: 100vh;
+    margin-top: 80px;
+    border-bottom: 1px solid #c1f719;
+}
+.headshot {
+    height: 600px;
+    width: 500px;
+    object-fit: cover;
+    position: absolute;
+    transform: translate(50%, 50%);
+}

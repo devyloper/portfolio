@@ -4,9 +4,19 @@
     position: relative;
     background-color: rgb(23, 23, 23);
 }
+.footer_link_cr {
+    display: inline-block;
+    margin: 2em 0em;
+    border-right: 1px solid #ffffff33;
+}
 
 .footer_links {
     margin-top: 2em;
+    display: flex;
+}
+.footer_links ul {
+    
+    padding-right: 2em;
 }
 .footer_links ul li {
     color: #fff;
@@ -18,4 +28,34 @@
 .footer_copyright {
     color: #c1f719;
     padding: 2em;
+    display: flex;
+}
+
+.socials {
+    display: inline-flex;
+
+}
+.socialsparent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.5em;
+    
+    background-color: #16252d;
+    border-radius: 50%;
+}
+
+.githubIcon {
+    color: #fff;
+    cursor: pointer;
+    font-size: 42px;
+    padding: 0.5rem;
+    border: 1px solid #3a474e;
+    border-radius: 50%;
+}
+
+.githubIcon:hover {
+    color: #c1f719;
+    border: 1px solid #c1f719;
+    border-radius: 50%;
 }

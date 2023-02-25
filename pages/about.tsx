@@ -1,9 +1,10 @@
 import Header from '../components/Header'
-import Hero from '../components/Hero'
-import Projects from '../components/Projects'
+// import Hero from '../components/Hero'
+// import Projects from '../components/Projects'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
-import Link from 'next/link'
+
+import About from '../components/About'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -13,10 +14,11 @@ export default function Home() {
     {/* HEADER */}
     <Header />
     {/* HERO */}
-    <Hero />
+    {/* <Hero /> */}
     {/* ABOUT ME */}
+    <About />
     {/* PROJECTS */}
-    <Projects />
+    {/* <Projects /> */}
     {/* CONTACT ME */}
     <Contact />
     {/* FOOTER */}
