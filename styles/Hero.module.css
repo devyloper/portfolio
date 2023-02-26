@@ -27,7 +27,7 @@
     rgba(167, 203, 67, 1) 39%,
     rgba(80, 51, 166, 1) 64%
   );
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   /* animation-name: name-animation;
   animation-duration: 30s;
