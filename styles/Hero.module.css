@@ -99,7 +99,7 @@
   color: #d2dee5;
   cursor: pointer;
   font-size: 42px;
-  padding: 0.5rem;
+  /* padding: 0.5rem; */
   border: 1px solid #3a474e;
   border-radius: 50%;
   transform: translate(50%, 50%);
