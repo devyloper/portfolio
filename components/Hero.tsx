@@ -20,11 +20,11 @@ export default function Hero({}: Props) {
         </h1>
         <h6 className={styles.subheading}>Student Developer</h6>
         <div className={styles.social_container}>
-          
-            <GitHubIcon className={styles.githubIcon} />
-            <LinkedInIcon className={styles.githubIcon} />
-            <TwitterIcon className={styles.githubIcon} />
-            <InstagramIcon className={styles.githubIcon} />
+           
+            <GitHubIcon sx={{ fontSize: "42px" }} className={styles.githubIcon} />
+            <LinkedInIcon sx={{ fontSize: "42px" }} className={styles.githubIcon} />
+            <TwitterIcon sx={{ fontSize: "42px" }} className={styles.githubIcon} />
+            <InstagramIcon sx={{ fontSize: "42px" }} className={styles.githubIcon} />
             <button className={styles.resume}>Resume</button>
         </div>
       </div>
