@@ -12,7 +12,7 @@ type Props = {};
 
 function Experience({}: Props) {
   return (
-    <div className="h-[100%] w-[100%] pb-8">
+    <div className="h-[100%] w-[100%] pb-8 border-b-[0.5px] border-[#3a474e]">
       <div>
         <h1
           style={ibmPlex.style}

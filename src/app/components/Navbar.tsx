@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 import React, { useState } from 'react'
+import Social from './Social'
 
 type Props = {}
 
@@ -32,6 +33,7 @@ const Navbar = (props: Props) => {
       <div className='p-8 text-[2rem] hover:underline decoration-[#c6e926] underline-offset-8 border-b-[0.5px] border-[#3a474e]'><Link href={"/"}>Blog</Link></div>
       <div className='p-8 text-[2rem] hover:underline decoration-[#c6e926] underline-offset-8 border-b-[0.5px] border-[#3a474e]'><Link href={"/"}>About me</Link></div>
       <div className='p-8 text-[2rem] hover:underline decoration-[#c6e926] underline-offset-8 border-b-[0.5px] border-[#3a474e]'><Link href={"/"}>Contact me</Link></div>
+      <div className='p-8 text-[2rem] hover:underline decoration-[#c6e926] underline-offset-8 border-b-[0.5px] border-[#3a474e]'><Social /></div>
     </div> 
     </div>
   )

@@ -3,6 +3,7 @@ import { Press_Start_2P } from "next/font/google";
 import Gradient from "./Gradient";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import Social from "./Social";
 const pressStart2P = Press_Start_2P({
   weight: "400",
   subsets: ["latin"],
@@ -27,6 +28,7 @@ const Hero = (props: Props) => {
           <h1>GDSC Member</h1>
           <h1>Opensource</h1>
         </div>
+        <div><Social /></div>
       </div>
       <div className="lg:h-[100vh] lg:w-[30vw] md:h-[40vh] md:w-[100vw] sm:h-[40vh] sm:w-[100vw] h-[40vh] w-[100%] bg-red-600">
         <Gradient />
